@@ -1,0 +1,108 @@
+{% extends "index.html" %}
+{% load static %}
+
+{% block tittle %}Registro | UPTP Guanare{% endblock %}
+{% block Contenido %}
+    <!-- Register -->
+    <div class="container hero">
+        <div class="row">
+            <!-- columna 1 -->
+            <div class="col-4">
+                <label>Nacionalidad</label>
+                <!-- NACIONALIDAD -->
+                <div class="input-group VenOext">
+                    <span class="input-group-addon" id="basic-addon1">Venezolano </span>
+                    <input type="checkbox" >
+                    <span class="input-group-addon" id="basic-addon1">Extranjero </span>
+                    <input type="checkbox" >
+                </div> <br>
+                <!-- Nombre -->
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">*</span>
+                    <input type="text" class="form-control" placeholder="Nombres" aria-describedby="basic-addon1">
+                </div> <br>
+                <!-- Pais de Nacimieto -->
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">Pais de Nacimieto</span>
+                    <input list="pais" value="" class="col-sm-6" placeholder="Introduzca Pais">
+                        <datalist id="pais">
+                            <option value="Venezuela"></option>
+                            <option value="Colombia"></option>
+                            <option value="Brazil"></option>
+                            <option value="Argentina"></option>
+                            <option value="Mexico"></option>
+                            <option value="Perú"></option>
+                            <option value="Chile"></option>
+                        </datalist>
+                </div> <br>
+                <!-- Fecha de Nacimieto -->
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">Fecha de Nacimieto</span>
+                    <input type="date">
+                </div> <br>
+                <!-- Numero de Celular -->
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">Numero Celular</span>
+                    <input type="number" placeholder="Ej. 04.. 1234567">
+                </div> <br>
+            </div>
+            <!-- columna 2 -->
+            <div class="col-4">
+                <label>Documento</label>
+                <!-- Documento -->
+                <div class="input-group VenOext">
+                    <span class="input-group-addon" id="basic-addon1">Cédula </span>
+                    <input type="checkbox" >
+                    <span class="input-group-addon" id="basic-addon1">Pasaporte </span>
+                    <input type="checkbox" >
+                </div> <br>
+                <!-- Apellido -->
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">*</span>
+                    <input type="text" class="form-control" placeholder="Apellidos" aria-describedby="basic-addon1">
+                </div> <br>
+                <!-- Email -->
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">Correo</span>
+                    <input type="email" placeholder=" tucorreo@ejemplo.com">
+                </div> <br>
+                <!-- Direccion -->
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">Direccion</span>
+                    <textarea cols="17" rows="3"></textarea>
+                </div> <br>
+            </div>
+            <!-- columna 3 -->
+            <div class="col-4">
+                <label>Número de Documento</label>
+                <!-- N° de Documento -->
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">*</span>
+                    <input type="number" class="form-control" placeholder="N° de Documento" aria-describedby="basic-addon1">
+                </div> <br>
+                <!-- Genero -->
+                <label>Género</label>
+                <div class="input-group VenOext">
+                    <span class="input-group-addon" id="basic-addon1">Masculino </span>
+                    <input type="checkbox" >
+                    <span class="input-group-addon" id="basic-addon1">Femenino </span>
+                    <input type="checkbox" >
+                </div> <br>
+                
+                <!-- Carreras -->
+                <div>
+                    <input list="carreras" placeholder="Carrera a Inscribir">
+                        <datalist id="carreras">
+                            <option value="Ing. Agroalimentaria"></option>
+                            <option value="Ing. Electrica"></option>
+                            <option value="Ing. Mecánica"></option>
+                            <option value="Ing. Informática"></option>
+                            <option value="Lic. Administración"></option>
+                            <option value="Med. Veterinaria"></option>
+                        </datalist>
+                </div> <br>
+                <button class="btn btn-danger" type="submit">Continuar</button>
+            </div>
+        </div>
+    </div>
+{% endblock %}

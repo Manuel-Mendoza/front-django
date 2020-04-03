@@ -1,0 +1,94 @@
+body{
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.banner{
+    background: white;
+}
+/* Header */
+.img-fluid{
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+/* navbar */
+.barra{
+    border-radius: 35px;
+    margin-bottom: 10px;
+}
+.collapse{
+    justify-content: center;
+    width: 8em;
+}
+.nav-item{
+    padding-left: 40px;
+}
+
+/* Hero */
+.hero {
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+}
+.hero_img{
+    width: 50em;
+}
+.public{
+    background: #EFEFBB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+
+}
+/* Footer */
+footer{
+    margin-top: 10px;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: whitesmoke;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+}
+.link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+ul{
+    list-style: none;
+    padding:0px
+}
+li{
+    padding: 0%;
+}
+.col-4{
+    padding-top: 15px;
+}
+/* --------------------------------------------------------------------------------------------------- */
+/* Support HTML */
+h3{
+    padding-top: 20px;
+}
+i{
+    text-decoration: underline;
+}
+.list-carreras{
+    list-style: inside;
+}
+.contenido{
+    margin-top: 30px;
+}
+
+.agro_img{
+    width: 100%;
+}
+.ing_elec{
+    margin-top: 20px;
+}
+/* ------------------------------------------------------------------- */
+/* Register */
+.VenOext{
+    align-items: center;
+}
